@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Bulky.DA.Repository
 {
-    public class ApplicationUserRepository : Repository<Category>, IApplicationUserRepository
+    public class ApplicationUserRepository : Repository<ApplicationUser>, IApplicationUserRepository
     {
         private ApplicationDBContext _db;
         public ApplicationUserRepository(ApplicationDBContext db) : base(db)
