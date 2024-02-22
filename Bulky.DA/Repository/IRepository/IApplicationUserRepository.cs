@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Bulky.DA.Repository.IRepository
 {
-    public interface IApplicationUserRepository : IRepository<ApplicationUser>
+    public interface IApplicationUserRepository : IRepository<Category>
     {
       
     }
